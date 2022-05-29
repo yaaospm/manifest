@@ -60,7 +60,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
   <project path="frameworks/base" name="frameworks_base" remote="yaaospm" />
-  <project path="frameworks/native" name="frameworks_native" remote="yaap" />
+  <project path="frameworks/native" name="frameworks_native" remote="yaaospm" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
 
   <!-- Hardware -->
@@ -109,7 +109,7 @@
   <project path="packages/apps/PhotonCamera" name="packages_apps_PhotonCamera" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaaospm" />
-  <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
+  <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaaospm" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
@@ -152,6 +152,6 @@
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="yaap" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="yaaospm" />
 
 </manifest>
