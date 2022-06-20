@@ -19,6 +19,10 @@
            fetch="https://github.com/chaldeaprjkt"
            revision="main" />
 
+  <remote  name="pixel-gitlab-self-hosted"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="twelve" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
@@ -50,6 +54,7 @@
   <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
@@ -100,6 +105,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="yaaospm" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="yaaospm" revision="12.1"/>
   <project path="packages/apps/GmsCompat" name="GrapheneOS/platform_packages_apps_GmsCompat" remote="github" revision="12.1" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
