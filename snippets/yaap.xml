@@ -57,6 +57,7 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="yaap" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
   <project path="external/selinux" name="external_selinux" remote="yaap" />
@@ -104,10 +105,14 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="yaap" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="yaap" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="yaaospm" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="yaaospm" revision="12.1"/>
   <project path="packages/apps/GmsCompat" name="GrapheneOS/platform_packages_apps_GmsCompat" remote="github" revision="12.1" />
+  <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
